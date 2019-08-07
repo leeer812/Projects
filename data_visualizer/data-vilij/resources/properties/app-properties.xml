@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This XML file allows us to easily customize the visual aesthetics of the user interface. Note that this properties
+file is only for the standard high-level controls for an application, so it does not include properties meant for any
+functionality within the main workspace. -->
+<properties>
+    <property_list>
+        <!-- RESOURCE FILES AND FOLDERS -->
+        <property name="DATA_RESOURCE_PATH" value="data"/>
+        <property name="DATA_RESOURCE_DIR" value="./data-vilij/resources"/>
+        <property name="CSS_RESOURCE_DIR" value="gui/css/chartcss.css"/>
+        <property name="CONFIG_WINDOW_CSS_DIR" value="gui/css/config.css"/>
+        <property name="MAIN_WINDOW_CSS_DIR" value="gui/css/gui.css"/>
+
+        <!-- USER INTERFACE ICON FILES -->
+        <property name="SCREENSHOT_ICON" value="screenshot.png"/>
+        <property name="GEAR_PNG_DIR" value="gui/icons/gear.png"/>
+
+        <!-- TOOLTIPS FOR BUTTONS -->
+        <property name="SCREENSHOT_TOOLTIP" value="Screenshot"/> <!-- will print current view of image to a file -->
+
+        <!-- WARNING MESSAGES -->
+        <property name="EXIT_WHILE_RUNNING_WARNING"
+                  value="An algorithm is running. If you exit now, all unsaved changes will be lost. Are you sure?"/>
+        <property name="EXIT_UNSAVED_WARNING"
+                  value="If you exit now, all unsaved changes will be lost. Are you sure?"/>
+
+        <!-- ERROR MESSAGES -->
+        <property name="RESOURCE_SUBDIR_NOT_FOUND" value="Directory not found under resources."/>
+        <property name="BLANK_LABEL_EXCEPTION" value="Blank label name."/>
+
+        <!-- APPLICATION-SPECIFIC MESSAGE TITLES -->
+        <property name="EXIT_WHILE_RUNNING_TITLE" value="Exit While Algorithm Is Still Running?"/>
+        <property name="EXIT_UNSAVED_TITLE" value="Exit Without Saving?"/>
+        <property name="NO_NEW_DATA_TITLE" value="No New Data Input!"/>
+        <property name="SAVE_UNSAVED_WORK_TITLE" value="Save Current Work"/>
+        <property name="SAVE_DIRECTORY_TITLE" value="Save Directory"/>
+        <property name="NAME_ERROR_TITLE" value="Invalid Data Name"/>
+        <property name="NUMBER_FORMAT_TITLE" value="Invalid Number Format"/>
+        <property name="INVALID_FORMAT_TITLE" value="Invalid Data Format"/>
+        <property name="DUP_NAME_TITLE" value="Duplicate Name"/>
+        <property name="LOAD_TITLE" value="Load File"/>
+        <property name="LOAD_ERROR_TITLE" value="Loading Errors"/>
+        <property name="ALG_CONFIG_WINDOW_TITLE" value="Algorithm Configuration Window"/>
+
+        <!-- APPLICATION-SPECIFIC MESSAGES -->
+        <property name="SAVE_UNSAVED_WORK" value="Would you like to save current work?"/>
+        <property name="NO_NEW_DATA" value="There was no new data input!"/>
+        <property name="NAME_ERROR_MSG" value="All data instance names must start with the @ character."/>
+        <property name="INVALID_FORMAT_MSG" value=". The input was in an invalid format. Input must start with the @ character, must be tab-separated, and must end with two double numbers."/>
+        <property name="NUMBER_FORMAT_MSG" value=". The coordinates must be input as two doubles."/>
+        <property name="DUP_NAME_MSG" value="There may not be any duplicate names."/>
+        <property name="DUP_NAME" value=" Duplicate name"/>
+        <property name="BLANK_LABEL_MSG" value="There may not be any blank label names."/>
+        <property name="ERROR" value=" Error"/>
+        <property name="ON_LINE" value=" on line "/>
+        <property name="NULL" value="null"/>
+        <property name="INVALID_CONFIG_FORMAT_MSG" value="You must input a number above 0 and below 2,147,483,648 for iterations"/>
+        <property name="INVALID_CLUSTER_NUMBER" value="You must input a number above 1 and less than 5 for cluster number."/>
+        <property name="INVALID_CONFIG_UPDATE" value="You must input a number above 0 and below 2,147,483,648 for update interval"/>
+        
+        <!-- APPLICATION-SPECIFIC PARAMETERS -->
+        <property name="DATA_FILE_EXT" value="*.tsd"/>
+        <property name="PICTURE_FILE_EXT" value="*.png"/>
+        <property name="DATA_FILE_EXT_DESC" value="Tab-Separated Data File"/>
+        <property name="PICTURE_FILE_EXT_DESC" value=".PNG"/>
+        <property name="TEXT_AREA" value="Data File"/>
+        <property name="DISPLAY_BUTTON" value="Display"/>
+        <property name="SPECIFIED_FILE" value=" specified file"/>
+        <property name="CHECKBOX_LABEL" value="Make TextArea Read-Only"/>
+        <property name="CSS_STROKE_WIDTH_2" value="fx-stroke-width:2px"/>
+        <property name="CSS_STROKE_WIDTH_0" value="-fx-stroke-width:0;"/>
+        <property name="CSS_STROKE_TRANSPARENT" value="-fx-stroke: transparent;"/>
+        <property name="CSS_BACKGROUND_TRANSPARENT" value="-fx-background-color: transparent;"/>
+        <property name="SERIES_AVG_NAME" value="Series Average"/>
+        <property name="PNG" value="png"/>
+        <property name="ALG_RUN_CONFIG" value="Algorithm Run Configuration"/>
+        <property name="CONFIG_ID" value="configTitle"/>
+        <property name="MAX_IT_LABEL" value="Max. Iterations: "/>
+        <property name="UPDATE_INT_LABEL" value="Update Interval: "/>
+        <property name="CLUSTER_NUM_LABEL" value="Amount of Clusters: "/>
+        <property name="CONTRUN_LABEL" value="Continuous Run? "/>
+        <property name="ITERATION_LABEL" value="Iteration: 0"/>
+        <property name="OUT_OF_BOUNDS_LABEL" value="Line out of Bounds of DataSet"/>
+        <property name="SUBMIT_BUTTON" value="Submit"/>
+        <property name="RUN_BUTTON" value="Run"/>
+        <property name="DONE_BUTTON" value="Done"/>
+        <property name="EDIT_BUTTON" value="Edit"/>
+        <property name="BACK_BUTTON" value="Back"/>
+        <property name="CLASS_BUTTON" value="Classification"/>
+        <property name="CLUSTER_BUTTON" value="Clustering"/>
+        <property name="ALG_TYPE_BUTTON" value="Algorithm Type"/>
+        <property name="BUTTON_ID" value="buttonOne"/>
+        <property name="RANDOM_CLASS_RADIO" value="Random Classification"/>
+        <property name="RANDOM_CLUSTER_RADIO" value="Random Clustering"/>
+        <property name="DATA_LABEL_INSTANCE_LABEL" value="There are %d instances, %d labels."/>
+        <property name="DATA_LABEL_LOAD_DIR" value="%nThis data is loaded from: %n"/>
+        <property name="DATA_LABEL_LABELS" value="%nThese are the labels: "/>
+        <property name="RUN_CONFIG_ERROR_MSG" value="There is no runtime configuration set for the selected algorithm type's category."/>
+        <property name="LABEL_PREFIX" value="%n -"/>
+        <property name="GRACEFUL_MSG" value="must be more than 1."/>
+        <property name="MORE_THAN_ONE_MSG" value="Max Iterations and Update Interval must be more than 1."/>
+        <property name="LESS_THAN_FOUR_MSG" value="Number of clusters must be more than or equal to 1 and less than or equal to 4."/>
+        <property name="ALG_TYPE_PACKAGE" value="algorithms.type"/>
+        <property name="ALG_NAME_PACKAGE" value="algorithms.type.names"/>
+        <property name="GET_MIN_LABELS_METHOD" value="getMinLabels"/>
+        <property name="GET_MIN_INSTANCES_METHOD" value="getMinInstances"/>
+        
+    </property_list>
+    <property_options_list/>
+</properties>

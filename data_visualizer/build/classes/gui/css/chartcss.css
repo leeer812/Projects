@@ -1,0 +1,43 @@
+/* Visualization Library in Java (ViLiJ) */
+.chart {
+    -fx-create-symbols: true;
+    
+    -fx-horizontal-grid-lines-visible: false;
+    -fx-vertical-grid-lines-visible: false;
+}
+
+.node{
+    -fx-stroke: transparent;
+    -fx-stroke-width: 0;
+}
+.axis{
+    -fx-font-size: 4em;
+    -fx-tick-label-fill: #b07416;
+    -fx-minor-tick-length: 8;
+    -fx-tick-length: 18;
+    -fx-tick-unit: 4;
+}
+.axis-tick-mark {
+    -fx-stroke: #13520f;
+    -fx-stroke-width: 3;
+}
+.chart-plot-background {
+    -fx-border-color: #000000;
+    -fx-border-width: 3;
+}
+.chart-line-symbol {
+    -fx-shape: "";
+}
+.chart-vertical-zero-line {
+    -fx-stroke: transparent;
+    
+}
+.chart-horizontal-zero-line {
+    -fx-stroke: transparent;
+}
+#serie-average .chart-series-line{
+    -fx-stroke: #25cc6e;
+}
+.onHover{
+    -fx-background-color: ORANGE;
+}
